@@ -6,8 +6,8 @@ const config = {
     headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    trace: 'retain-on-failure',
+    trace: 'on-first-retry'
   },
-  outputDir: 'test-results',
+  outputDir: 'test-results'
 };
 export default config;
